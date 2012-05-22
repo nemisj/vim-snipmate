@@ -1,0 +1,21 @@
+# Y.Logger
+snippet y.log
+	Y.log('.${1:name}', '${2:debug}', this.name)${3};
+# Y.add
+snippet y.add
+	YUI.add('${1:module_name}', function (Y, NAME) {
+		Y.namespace(NAME);
+
+		Y.$1 = Y.Base.create(NAME, Y.Base, [], {
+			${2: // code here}
+		});
+	}, '0.0.1', {
+		requires: [
+			'base'
+		]
+	});
+# Y.use
+snippet y.use
+	YUI().use([${1}],function(Y) {
+		${2:// code here}
+	});
