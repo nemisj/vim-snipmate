@@ -1,12 +1,12 @@
 # to.be.ok
 snippet chai.ok
-	expect(${1}).to.be.ok;
+	expect(${1:false}).to.be.ok;
 snippet chai.eql
-	expect(${1}).to.eql(${2});
+	expect(${1:false}).to.eql(${2:true});
 snippet chai.iof
-	expect(${1}).to.be.instanceof(${2});
+	expect(${1:null}).to.be.instanceof(${2:false});
 snippet chai.tohave
-	expect(${1}).to.have.property(${2});
+	expect(${1:null}).to.have.property('${2:property}');
 snippet chai.tobea
-	expect(${1}).to.be.a(${2});
+	expect(${1:null}).to.be.a('${2:array}');
 
