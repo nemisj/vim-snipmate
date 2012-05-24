@@ -2,13 +2,13 @@
 snippet chai.ok
 	expect(${1:false}).to.be.ok;${3}
 snippet chai.eql
-	expect(${1:false}).to.eql(${2:true});${3}
+	expect(${1:null}).to.eql(${2:''});${3}
 snippet chai.equal
-	expect(${1:false}).to.equal(${2:true});${3}
+	expect(${1:null}).to.equal(${2:''});${3}
 snippet chai.iof
 	expect(${1:null}).to.be.instanceof(${2:false});${3}
 snippet chai.tohave
-	expect(${1:null}).to.have.property('${2:property}');${3}
+	expect(${1:null}).to.have.property(${2:'property'});${3}
 snippet chai.tobe
 	expect(${1:null}).to.be.a('${2:}');${3}
 
