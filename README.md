@@ -14,6 +14,7 @@ which means you can install them as any pathogen bundle.
 All snippets begin with a prefix of the library in order to keep them separate
 from each other, e.g., `expect(false).to.be.ok;` is `chai.ok`
 
+
 Chai.js snippets
 ================
 
@@ -52,4 +53,43 @@ Chai.js snippets
 
 ### chai.beun
 	expect('').to.be.a('undefined');
+
+
+Mocha.js snippets
+=================
+
+### mocha.describe
+	describe('Description', function() {
+		// code in here
+	});
+
+### mocha.before
+	before(function() {
+		// code in here
+	});
+
+### mocha.after
+	after(function() {
+		// code in here
+	});
+
+### mocha.beforeEach
+	beforeEach(function() {
+		// code in here
+	});
+
+### mocha.afterEach
+	afterEach(function() {
+		// code in here
+	});
+
+### mocha.it
+	it('should ', function() {
+		// code in here
+	});
+
+### mocha.itp
+Pending it
+	it('should ');
+
 
