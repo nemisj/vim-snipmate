@@ -17,10 +17,10 @@ from each other, e.g., `expect(false).to.be.ok;` is `chai.ok`
 Chai.js snippets
 ================
 
-##  chai.ok
+##chai.ok
 	expect(false).to.be.ok;
 
-## chai.notok
+##chai.notok
 	expect(true).to.not.be.ok;
 
 ## chai.eql
