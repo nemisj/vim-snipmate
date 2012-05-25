@@ -17,39 +17,39 @@ from each other, e.g., `expect(false).to.be.ok;` is `chai.ok`
 Chai.js snippets
 ================
 
-###chai.ok
+### chai.ok
 	expect(false).to.be.ok;
 
-##chai.notok
+### chai.notok
 	expect(true).to.not.be.ok;
 
-## chai.eql
+### chai.eql
 	expect(null).to.eql(''});
 
-## chai.equal
+### chai.equal
 	expect(null).to.equal('');
 
-## chai.iof
+### chai.iof
 	expect(null).to.be.instanceof(false);
 
-## chai.tohave
+### chai.tohave
 	expect(null).to.have.property('property');
 
-## chai.tobe
+### chai.tobe
 	expect(null).to.be.a('');
 
-## chai.bestr
+### chai.bestr
 	expect(null).to.be.a('string');
 
-## chai.bearray
+### chai.bearray
 	expect(null).to.be.a('array');
 
-## chai.beobj
+### chai.beobj
 	expect(null).to.be.a('object');
 
-## chai.benull
+### chai.benull
 	expect('').to.be.a('null');
 
-## chai.beun
+### chai.beun
 	expect('').to.be.a('undefined');
 
