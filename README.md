@@ -89,7 +89,9 @@ Mocha.js snippets
 	});
 
 ### mocha.itp
+
 Pending it
+
 	it('should ');
 
 
