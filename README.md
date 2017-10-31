@@ -5,7 +5,7 @@ Snippets for vim using snipmate + pathogen compatible bundle
 
 This are the snippets for the following libraries: 
 * chaijs ( http://chaijs.com/ )
-* mocha ( http://visionmedia.github.com/mocha/ )
+* mocha ( https://mochajs.org/ )
 * YUI ( http://yuilibrary.com/ )
 
 Simple snippet loader is included in here in order to make snippets pathogen compatible,
